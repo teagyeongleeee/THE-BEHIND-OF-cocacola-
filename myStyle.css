@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+
+    background-image: url(img/bgW.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+}
+
+.container div{
+    position: absolute;
+}
+
+#dim{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+#dim.on{
+    opacity: 0.8;
+}
+
+#itemA{
+    top: 200px;
+    left: 300px;
+    background-image: url(img/diet.jpg);
+    background-size: contain;
+    border-radius: 50%;
+    border: solid 5px #fb001a;
+}
+
+#itemB{
+    top: 200px;
+    left: 300px;
+    background-image: url(img/santa.jpg);
+    background-size: contain;
+    border-radius: 50%;
+    border: solid 5px #fb001a;
+}
+#itemC{
+    top: 200px;
+    left: 300px;
+    background-image: url(img/bear.jpg);
+    background-size: contain;
+    border-radius: 50%;
+    border: solid 5px #fb001a;
+}
+#itemD{
+    top: 200px;
+    left: 300px;
+    background-image: url(img/plastic.jpg);
+    background-size: contain;
+    border-radius: 50%;
+    border: solid 5px #fb001a;
+}
+
+
+#textBox{
+    position: absolute;
+    font-size: 2.4rem;
+    color: white;
+    width: 420px;
+    height: 320px;
+    visibility: hidden;
+    line-height: 150%;
+    word-break: keep-all;
+    font-weight: 300;
+}
+
+#title{
+    top: 136px;
+    
+}
+
+#title img{
+    width: 100%;
+}
+
+
+@media (max-width:640px){
+
+#container{
+    background-image: url(img/bgM.png);
+    background-size: cover;
+    background-position:center;
+}
+
+}
