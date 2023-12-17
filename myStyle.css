@@ -76,10 +76,10 @@
 
 #textBox{
     position: absolute;
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: white;
-    width: 420px;
-    height: 320px;
+    width: 410px;
+    height: 310px;
     visibility: hidden;
     line-height: 150%;
     word-break: keep-all;
